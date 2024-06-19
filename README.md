@@ -3,6 +3,8 @@
 ## Intro
 
 STARTED: June 20, 2024
+FINISHED: June 20, 2024 (took 3h30m+)
+
 GOAL: To practice using Flexbox with the guidance of TOP curriculum.
 
 ## Instructions
