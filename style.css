@@ -1,12 +1,9 @@
 *, *::before, *::after { box-sizing: inherit; }
 
-html {
-	box-sizing: border-box;
-}
-
 div.container {
     width: 16rem;
     height: 16rem;
+    border: 0.3rem solid darkblue;
 
     display: flex;
     flex-wrap: wrap;
