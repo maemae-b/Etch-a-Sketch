@@ -4,7 +4,6 @@ let canvasSize = 16;
 
 function createDivs(sides) {
     
-    //create loop so it makes 16 divs
     for (let i = sides; i > 0; i--)  {
 
         const NEW_DIV = document.createElement("div");
