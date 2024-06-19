@@ -1,10 +1,27 @@
 *, *::before, *::after { box-sizing: inherit; }
 
+body {
+    background-color: #fed6b3;
+}
+
+div.h1 {
+    width: 14rem;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 10px;
+
+    background-color: #ffbf68;
+    color: #9d6312;
+    border: 0.3rem solid #f6b458;
+}
+
 div.container {
-    
-    width: 16rem;
-    height: 16rem;
-    border: 0.3rem solid darkblue;
+    background-color: #abcff5;
+
+    margin: 0 auto;
+    width: 42rem;
+    height: 42rem;
+    border: 0.3rem solid #ffbf68;
 
     display: flex;
     flex-wrap: wrap;
@@ -14,5 +31,21 @@ div.container > div {
     box-sizing: border-box;
     border: 1px solid #46454733;
     
-    flex: 1 1 4rem;
+    flex: 1 1 auto;
+}
+
+div.button {
+    text-align: center;
+}
+
+button {
+    margin: 1rem auto;
+
+    font-size: 1.5rem;
+    padding: 0.8rem;
+
+    color: #9d6312;
+    background-color: #ffbf68;
+    border: 0.3rem solid #f6b458;
+    border-radius: 45%;
 }

@@ -8,7 +8,7 @@ function createDivs(sides) {
     for (let i = sides; i > 0; i--)  {
 
         const NEW_DIV = document.createElement("div");
-        NEW_DIV.addEventListener("mouseenter", () => NEW_DIV.style.backgroundColor = "lightblue");
+        NEW_DIV.addEventListener("mouseenter", () => NEW_DIV.style.backgroundColor = "#1860c6");
         CONTAINER_DIV.appendChild(NEW_DIV);
     };
 
