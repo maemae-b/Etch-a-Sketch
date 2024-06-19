@@ -15,3 +15,7 @@ div.container {
 div.container > div {
     flex: 1 1 4rem;
 }
+
+div.container > div:hover {
+    background-color: bisque;
+}
