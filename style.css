@@ -14,5 +14,4 @@ div.container {
 
 div.container > div {
     flex: 1 1 4rem;
-    border: 0.5rem solid black;
 }
