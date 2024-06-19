@@ -21,6 +21,6 @@ const BUTTON = document.querySelector("button.canvas");
 
 BUTTON.addEventListener("click", () => {
     CONTAINER_DIV.textContent = "";
-    canvasSize = Number(prompt("Please enter canvas size: ", 16));
+    canvasSize = Number(prompt("Please enter canvas size: ", 4)) ** 2;
     createDivs(canvasSize);
 });
