@@ -16,8 +16,11 @@ function createDivs(sides) {
 
 createDivs(canvasSize);
 
+
 const BUTTON = document.querySelector("button.canvas");
 
 BUTTON.addEventListener("click", () => {
+    CONTAINER_DIV.textContent = "";
     canvasSize = Number(prompt("Please enter canvas size: ", 16));
+    createDivs(canvasSize);
 });
