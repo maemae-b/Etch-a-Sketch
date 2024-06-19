@@ -2,10 +2,10 @@ const CONTAINER_DIV = document.querySelector(".container");
 
 let canvasSize = 16;
 
-function create16Divs() {
+function createDivs(sides) {
     
     //create loop so it makes 16 divs
-    for (let i = 16; i > 0; i--)  {
+    for (let i = sides; i > 0; i--)  {
 
         const NEW_DIV = document.createElement("div");
         NEW_DIV.addEventListener("mouseenter", () => NEW_DIV.style.backgroundColor = "lightblue");
@@ -14,7 +14,7 @@ function create16Divs() {
 
 };
 
-create16Divs();
+createDivs(canvasSize);
 
 const BUTTON = document.querySelector("button.canvas");
 
