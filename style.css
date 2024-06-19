@@ -4,15 +4,15 @@ html {
 	box-sizing: border-box;
 }
 
-div {
-    border: 1rem solid black;
-}
-
 div.container {
+    width: 16rem;
+    height: 16rem;
+
     display: flex;
+    flex-wrap: wrap;
 }
 
 div.container > div {
-    flex: auto;
-    
+    flex: 1 1 4rem;
+    border: 0.5rem solid black;
 }
