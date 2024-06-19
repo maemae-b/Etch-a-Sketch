@@ -1,6 +1,7 @@
 *, *::before, *::after { box-sizing: inherit; }
 
 div.container {
+    
     width: 16rem;
     height: 16rem;
     border: 0.3rem solid darkblue;
@@ -10,5 +11,8 @@ div.container {
 }
 
 div.container > div {
+    box-sizing: border-box;
+    border: 1px solid #46454733;
+    
     flex: 1 1 4rem;
 }
